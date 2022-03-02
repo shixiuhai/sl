@@ -1,11 +1,2 @@
-## 深澜认证协议,python模拟登录
- - 具体不细说
- - 博客原文分析
- - https://blog.csdn.net/qq_41797946/article/details/89417722
-***
-## 如何使用
-~~~
-git clone https://github.com/huxiaofan1223/jxnu_srun.git
-cd jxnu_srun
-python jxnu_wifi.py
-~~~
+## 深澜认证协议,python模拟登录 金华职业技术学院2022年3月2日修改
+## 因为那个无感认证基本无效，这个脚本适合服务器无web页面认证和手机通过termux实现校园网自动认证连接
