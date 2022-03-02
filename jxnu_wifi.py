@@ -88,7 +88,7 @@ def login():
 if __name__ == '__main__':
 	global username,password
 	username="201910101590027"
-	password="sxh.200008"
+	password="xxxxx"
 	init_getip()
 	get_token()
 	do_complex_work()
