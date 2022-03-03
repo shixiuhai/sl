@@ -11,7 +11,7 @@ do
   # 在晚上0点到早上6点间，校园网认证功能关闭
   elif [ $hh -ge 00 ] && [ $hh -le 06 ];then
     echo "---现在是休息时间---"
-  # 在需要认证的时间内运行自当认证的python脚本
+  # 在需要认证的时间内运行自动认证的python3脚本
   else
     python3 jxnu_wifi.py
   fi
