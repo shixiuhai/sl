@@ -2,8 +2,9 @@
 #!/bin/bash
 while true
 do
-  # 每隔15秒钟判断一次校园网是否在线
-  sleep 15
+  # 每隔5秒钟判断一次校园网是否在线
+  sleep 5
+  hh==`date '+%H'`
   ping -c 5 -q 114.114.114.114 # -c 5 是ping 5次的意思，-q 是隐藏ping的结果
   # 当有网络的时候判定校园网在线
   if [ $? -eq 0 ];then
